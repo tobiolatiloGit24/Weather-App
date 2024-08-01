@@ -42,7 +42,7 @@ export default function Weather() {
     fetchWeatherData("lagos");
   }, []);
 
-  console.log(weatherData);
+  // console.log(weatherData);
   function handleSearch() {
     fetchWeatherData(search);
     setSearch("");
